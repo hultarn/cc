@@ -1,0 +1,4 @@
+shell.run("rm g.lua")
+shell.run("rm gcode.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/g.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/gcode.lua")

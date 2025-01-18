@@ -1,0 +1,13 @@
+shell.run("rm filter.lua")
+
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/glass.lua")
+shell.run("mv glass.lua filter.lua")
+
+if not fs.exists("filter_modname.lua") then
+    shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/filter_modname.lua")
+end
+
+shell.run("rm loop.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/sorter/loop.lua")
+
+shell.run("loop.lua")

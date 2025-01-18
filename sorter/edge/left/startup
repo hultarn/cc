@@ -1,0 +1,11 @@
+-- https://pastebin.com/rmKyBcdA
+
+while true do
+    local peripheralLeft = peripheral.wrap("left")
+    local item = peripheralLeft.getItemDetail(1)
+
+    if item then
+        peripheralLeft.pushItems("top", 1, nil, 1)
+    end
+    os.sleep(1)
+end

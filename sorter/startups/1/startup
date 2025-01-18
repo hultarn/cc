@@ -1,0 +1,14 @@
+shell.run("rm filter_1.lua")
+shell.run("rm filter_2.lua")
+
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/armor_n_tools.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/dirt.lua")
+shell.run("mv armor_n_tools.lua filter_1.lua")
+shell.run("mv dirt.lua filter_2.lua")
+
+-- shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/filter_modname.lua")
+
+shell.run("rm loop.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/looper/left/loop.lua")
+
+shell.run("loop.lua")

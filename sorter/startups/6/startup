@@ -1,0 +1,13 @@
+shell.run("rm filter_1.lua")
+shell.run("rm filter_2.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/sandstone.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/saplings_n_seeds.lua")
+shell.run("mv sandstone.lua filter_1.lua")
+shell.run("mv saplings_n_seeds.lua filter_2.lua")
+
+-- shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/filters/filter_modname.lua")
+
+shell.run("rm loop.lua")
+shell.run("wget https://raw.githubusercontent.com/hultarn/cc/master/sorter/looper/right/loop.lua")
+
+shell.run("loop.lua")

@@ -1,0 +1,9 @@
+while true do
+    local chest = peripheral.wrap("back")
+    local items = chest.list()
+    if #items == chest.size() then
+        print("asdasd")
+    end
+
+    os.sleep(1)
+end

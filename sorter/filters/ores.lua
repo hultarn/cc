@@ -1,0 +1,25 @@
+-- https://pastebin.com/ut38SXWD
+
+return {
+    "minecraft:gold_ore",
+    "minecraft:iron_ore",
+    "minecraft:coal_ore",
+    "minecraft:lapis_ore",
+    "minecraft:lapis_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "minecraft:diamond_ore",
+    "minecraft:diamond_ore",
+    "minecraft:redstone_ore",
+    "minecraft:emerald_ore",
+    "minecraft:emerald_block",
+    "minecraft:coal_block",
+    "minecraft:coal",
+    "minecraft:charcoal",
+    "minecraft:diamond",
+    "minecraft:iron_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_nugget",
+    "minecraft:emerald",
+    "minecraft:iron_nugget",
+}
