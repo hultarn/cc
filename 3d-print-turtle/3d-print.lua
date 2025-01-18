@@ -6,6 +6,12 @@ function split(input, delimiter)
     return result
 end
 
+local curr_x = 0
+local curr_z = 0
+local curr_y = 0
+local r = 0
+local selectedSlot = 1
+
 -- 0 is F, 2 is B, 1 is R and 3 is L
 function rotate(to)
     if r == to then
@@ -130,12 +136,6 @@ if not arg[1] then
 end
 
 local gcode = dofile(arg[1])
-
-local curr_x = 0
-local curr_z = 0
-local curr_y = 0
-local r = 0
-local selectedSlot = 1
 
 for _, v in ipairs(gcode) do
     local extrudeIsActive = 0
